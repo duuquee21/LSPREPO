@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-using UnityEngine;
+
 using UnityEngine.SceneManagement;
 
 public class tp_scene : MonoBehaviour
@@ -30,7 +30,7 @@ public class tp_scene : MonoBehaviour
         enemigos.RemoveAll(item => item == null);
         if (enemigos.Count == 0)
         {
-            Debug.Log("0 eneigos");
+            
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)

@@ -31,7 +31,7 @@ public class Jump : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Floor"))
             {
-            Debug.Log("En el suelo");
+            
              isJumping = false;
             }
     }
