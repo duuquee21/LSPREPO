@@ -8,6 +8,7 @@ public class EnemyShooter : MonoBehaviour
     public Transform firePoint;         // Punto desde el cual se dispara
     public float fireRate = 3f;         // Tiempo entre disparos
     private float fireTimer;
+    public Animator anim;
 
     public Transform player; // Referencia al jugador
 
@@ -33,7 +34,7 @@ public class EnemyShooter : MonoBehaviour
         {
             // Crear el proyectil
             GameObject projectile = Instantiate(projectilePrefab, firePoint.position, firePoint.rotation);
-
+            anim.SetBool("isAttacking", true);
             // Orientar el proyectil hacia el jugador
             Vector2 direction = (player.position - firePoint.position).normalized;
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
@@ -41,6 +42,14 @@ public class EnemyShooter : MonoBehaviour
 
             Debug.Log("Enemigo dispara!");
         }
+        else
+        {
+            anim.SetBool("isAttacking", false);
+        }
     }
 }
+
+
+
+
 
