@@ -200,4 +200,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damageAmount: 3
   attackcooldown: 2
+  anim2: {fileID: 7941071050465981525}
   nextDamageTime: 0
+--- !u!95 &7941071050465981525 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3350673536608434072, guid: f17f21325addd2144a8cbe65626e62d9, type: 3}
+  m_PrefabInstance: {fileID: 4632974624201720781}
+  m_PrefabAsset: {fileID: 0}

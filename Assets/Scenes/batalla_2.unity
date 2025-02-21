@@ -133,11 +133,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1602956782096272868, guid: ab770743e56cda24abc1fec09360bb01, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.79
+      value: 5.18
       objectReference: {fileID: 0}
     - target: {fileID: 1602956782096272868, guid: ab770743e56cda24abc1fec09360bb01, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.06
+      value: 1.51
       objectReference: {fileID: 0}
     - target: {fileID: 1602956782096272868, guid: ab770743e56cda24abc1fec09360bb01, type: 3}
       propertyPath: m_LocalPosition.z
@@ -178,6 +178,22 @@ PrefabInstance:
     - target: {fileID: 6238196295740324977, guid: ab770743e56cda24abc1fec09360bb01, type: 3}
       propertyPath: m_Name
       value: EnemyShooter
+      objectReference: {fileID: 0}
+    - target: {fileID: 8754712026766153061, guid: ab770743e56cda24abc1fec09360bb01, type: 3}
+      propertyPath: m_Size.x
+      value: 0.24419034
+      objectReference: {fileID: 0}
+    - target: {fileID: 8754712026766153061, guid: ab770743e56cda24abc1fec09360bb01, type: 3}
+      propertyPath: m_Size.y
+      value: 0.61434865
+      objectReference: {fileID: 0}
+    - target: {fileID: 8754712026766153061, guid: ab770743e56cda24abc1fec09360bb01, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.12596834
+      objectReference: {fileID: 0}
+    - target: {fileID: 8754712026766153061, guid: ab770743e56cda24abc1fec09360bb01, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.18107939
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3394,11 +3410,11 @@ PrefabInstance:
       objectReference: {fileID: 2083522147}
     - target: {fileID: 7527984558124996260, guid: 1c2fed58104b84345be944b1c0a54a10, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.2811003
+      value: 6.23
       objectReference: {fileID: 0}
     - target: {fileID: 7527984558124996260, guid: 1c2fed58104b84345be944b1c0a54a10, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.990469
+      value: -2.55
       objectReference: {fileID: 0}
     - target: {fileID: 7527984558124996260, guid: 1c2fed58104b84345be944b1c0a54a10, type: 3}
       propertyPath: m_LocalPosition.z
