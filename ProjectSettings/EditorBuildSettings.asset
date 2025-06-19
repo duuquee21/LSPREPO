@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/FIN.unity
     guid: c5696ed63f8cfb143ab4ee1666fc5234
+  - enabled: 1
+    path: Assets/Scenes/TutorialConvinaciones.unity
+    guid: d8bbbfece401cdf4985e53d4c8272112
   m_configObjects: {}

@@ -1334,7 +1334,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Tienes tres tipos de convinaciones de teclas:\nJ+K+L = ataque fuerte +1
-    de da\xF1o en el ultimo golpe\nJ+J+K = Cura 3/10"
+    de da\xF1o en el ultimo golpe\nJ+J+K = Cura 3/10\n\n\nPara volver a abrir este
+    menu pulsa la tecla i"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 3b692c37bc839cd49a98253ecaeea0e1, type: 2}
   m_sharedMaterial: {fileID: 2222985412325025976, guid: 3b692c37bc839cd49a98253ecaeea0e1, type: 2}
